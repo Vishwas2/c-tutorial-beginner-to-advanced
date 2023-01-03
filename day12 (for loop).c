@@ -28,6 +28,8 @@
 -> We can update more than one variable at the same time.
 -> It is also optional*/
 
+/* IF THE CODE INSIDE FOR LOOP IS ONLY OF ONE LINE THEN YOU DON'T NEED TO APPLY BRACES {} */
+
 // to gain better understanding of for loop watch code with harry for loop in c (video number 15)
 
 #include <stdio.h>>
