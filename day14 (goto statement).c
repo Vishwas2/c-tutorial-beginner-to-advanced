@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
             scanf("%d", &num);
             if (num==0)
             {
-                // break cannot be used here because it will only exit us from only the first for loop
+                // break cannot be used here because it will only exit us from this for loop
                 // so if we want to exit from all the loops at once we can use goto.
                 goto end;
             }
