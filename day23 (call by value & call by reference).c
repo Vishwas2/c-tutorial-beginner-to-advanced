@@ -21,6 +21,17 @@ sheet to Andy so that Andy can copy his answer and get passing marks in the exam
 formal parameter. Even if Andy decides to change his answer later(formal parameter is changed) it would have no effect on the Sam's answer(actual parameter won't
 change).
 */
+/*EXAMPLE OF CALL BY VALUE CODE :
+void increment(int a) {
+  a++;
+}
+int main() {
+  int x = 5;
+  increment(x);
+  printf("%d\n", x); // output: 5
+  return 0;
+}
+*/
 
 /*CALL BY REFERENCE :
 -> The call by reference method of passing arguments to a C function copies the address of the arguments into the formal parameters.
